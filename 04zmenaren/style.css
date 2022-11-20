@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background-color: rgb(22, 15, 34); */
+  background-color: rgb(4, 0, 12);
+  height: 100vh;
+}
+.container {
+  position: relative;
+  top: 30%;
+  margin: 0 auto;
+  width: 860px;
+  /* max-width: 100%; */
+  height: 80px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-radius: 20px;
+  background-color: rgb(33, 23, 59);
+  /* box-shadow: 0px 18px 16px -4px rgba(50, 34, 90, 0.74); */
+  transform: translateY(-50%);
+}
+.convert {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  bottom: 45px;
+  border: 1px solid black;
+  background-color: rgb(33, 23, 59);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.convert:hover {
+  background-color: rgb(93, 69, 153);
+  cursor: pointer;
+}
+.backflip {
+  /* animation:  ease-in ; */
+  position: relative;
+  animation-name: transport;
+  animation-fill-mode: forwards;
+  animation-duration: 1.5s;
+}
+
+@keyframes transport {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  33% {
+    transform: translateY(150px);
+  }
+  66% {
+    transform: translateY(150px) translateX(334px);
+  }
+  100% {
+    transform: translateY(0) translateX(334px);
+  }
+}
+.backflip2 {
+  position: relative;
+  animation-name: transport2;
+  animation-fill-mode: forwards;
+  animation-duration: 1.5s;
+}
+
+@keyframes transport2 {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  33% {
+    transform: translateY(-150px);
+  }
+  66% {
+    transform: translateY(-150px) translateX(-334px);
+  }
+  100% {
+    transform: translateY(0) translateX(-334px);
+  }
+}
+
+.backflip3 {
+  /* animation:  ease-in ; */
+  position: relative;
+  animation-name: transport3;
+  animation-fill-mode: forwards;
+  animation-duration: 1.5s;
+  animation-direction: reverse;
+}
+
+@keyframes transport3 {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  33% {
+    transform: translateY(150px);
+  }
+  66% {
+    transform: translateY(150px) translateX(334px);
+  }
+  100% {
+    transform: translateY(0) translateX(334px);
+  }
+}
+
+.backflip4 {
+  position: relative;
+  animation-name: transport4;
+  animation-fill-mode: forwards;
+  animation-duration: 1.5s;
+  animation-direction: reverse;
+}
+
+@keyframes transport4 {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  33% {
+    transform: translateY(-150px);
+  }
+  66% {
+    transform: translateY(-150px) translateX(-334px);
+  }
+  100% {
+    transform: translateY(0) translateX(-334px);
+  }
+}
+.rotate {
+  animation: converto 1.5s ease-in-out;
+}
+@keyframes converto {
+  15% {
+    box-shadow: 0px 0px 82px 24px rgba(60, 39, 97, 0.75);
+  }
+  100% {
+    transform: rotate(-180deg);
+    box-shadow: 0px 0px 82px 24px rgba(79, 51, 128, 0.75);
+  }
+}
+form {
+  display: flex;
+  justify-content: space-between;
+}
+input,
+select {
+  position: relative;
+  display: inline-block;
+  top: 13px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid rgb(61, 49, 92);
+  margin: 0 10px;
+  flex: 1;
+  width: 0;
+}
+input[type='text'],
+select {
+  text-align: center;
+  color: white;
+
+  border-radius: 10px;
+  font-size: 16px;
+}
+select {
+  height: 54px;
+}
+
+input:first-of-type {
+  border-radius: 30px 10px 10px 30px;
+}
+input:last-of-type {
+  border-radius: 10px 30px 30px 10px;
+}
+.currency {
+  color: rgb(135, 92, 243) !important;
+  font-size: 22px;
+  font-weight: bold;
+}
+h1 {
+  position: relative;
+  color: white;
+  top: 20%;
+  transform: translateY(-50%);
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 10em;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 10px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1:before {
+  content: 'Z';
+  color: rgb(93, 69, 153);
+  font-family: 'Bangers', cursive;
+  font-size: 1.2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#kurz {
+  position: absolute;
+  color: white;
+  top: 130px;
+  left: 44%;
+  transform: translateY(-50%);
+
+  font-size: 1.1em;
+
+  text-transform: uppercase;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 4px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.circle {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(93, 69, 153);
+    border-radius: 50px;
+    animation: circling 2s  infinite;
+
+}
+
+@keyframes circling {
+    0% {
+        box-shadow: 0 0 0 0 rgba(155, 109, 235, 0.75);
+      }
+      70% {
+          box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+      }
+      100% {
+          box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      }
+}
+
+
+.circle p {
+    position: absolute;
+    color: white;
+    left: 35px;
+    top: 2px;
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

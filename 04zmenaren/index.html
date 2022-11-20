@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Zmenáreň</title>
+</head>
+
+<body>
+    <h1>menáreň</h1>
+    <div class="container">
+        <div class="converter">
+            <form action="#">
+                <input type="text" id="amount" placeholder="0">
+                <select class="currency" id="from">
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
+                    <option value="INR">INR</option>
+                    <option value="JPY">JPY</option>
+                    <option value="BGN">BGN</option>
+                </select>
+                <div class="convert" id="convert">
+                    <img src="rounded.png" alt="" width="70" id="convert">
+                </div>
+                <select class="currency" id="to">
+                    <option value="EUR">EUR</option>
+                    <option value="USD">USD</option>
+                    <option value="GBP">GBP</option>
+                    <option value="INR">INR</option>
+                    <option value="JPY">JPY</option>
+                    <option value="BGN">BGN</option>
+                </select>
+                <input type="text" id="result" placeholder="0" disabled>
+            </form>
+            <p id="kurz"></p>
+            <div class="circle">
+                <p>Online</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

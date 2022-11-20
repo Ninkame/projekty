@@ -1,0 +1,254 @@
+2022-11-04T02:16:11+00:00 CRITICAL Uncaught TypeError: array_intersect_key(): Argument #1 ($array) must be of type array, null given in E:\projekty\portfolio\05eshop\wp-includes\theme.php:2669
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\theme.php(2669): array_intersect_key(NULL, Array)
+#1 E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\functions.php(12): add_theme_support('custom-logo', NULL)
+#2 E:\projekty\portfolio\05eshop\wp-includes\class-wp-hook.php(308): themename_custom_logo_setup('')
+#3 E:\projekty\portfolio\05eshop\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 E:\projekty\portfolio\05eshop\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 E:\projekty\portfolio\05eshop\wp-settings.php(595): do_action('after_setup_the...')
+#6 E:\projekty\portfolio\05eshop\wp-config.php(96): require_once('E:\\projekty\\por...')
+#7 E:\projekty\portfolio\05eshop\wp-load.php(50): require_once('E:\\projekty\\por...')
+#8 E:\projekty\portfolio\05eshop\wp-blog-header.php(13): require_once('E:\\projekty\\por...')
+#9 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#10 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-includes\theme.php na riadku 2669
+
+2022-11-04T02:16:12+00:00 CRITICAL Uncaught TypeError: array_intersect_key(): Argument #1 ($array) must be of type array, null given in E:\projekty\portfolio\05eshop\wp-includes\theme.php:2669
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\theme.php(2669): array_intersect_key(NULL, Array)
+#1 E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\functions.php(12): add_theme_support('custom-logo', NULL)
+#2 E:\projekty\portfolio\05eshop\wp-includes\class-wp-hook.php(308): themename_custom_logo_setup('')
+#3 E:\projekty\portfolio\05eshop\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 E:\projekty\portfolio\05eshop\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 E:\projekty\portfolio\05eshop\wp-settings.php(595): do_action('after_setup_the...')
+#6 E:\projekty\portfolio\05eshop\wp-config.php(96): require_once('E:\\projekty\\por...')
+#7 E:\projekty\portfolio\05eshop\wp-load.php(50): require_once('E:\\projekty\\por...')
+#8 E:\projekty\portfolio\05eshop\wp-blog-header.php(13): require_once('E:\\projekty\\por...')
+#9 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#10 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-includes\theme.php na riadku 2669
+
+2022-11-04T03:46:30+00:00 CRITICAL Uncaught Error: Call to undefined function twenty_twenty_one_the_posts_navigation() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:13
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 13
+
+2022-11-04T03:46:32+00:00 CRITICAL Uncaught Error: Call to undefined function twenty_twenty_one_the_posts_navigation() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:13
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 13
+
+2022-11-04T03:46:37+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 3
+
+2022-11-04T03:49:35+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:4
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 4
+
+2022-11-04T03:53:36+00:00 CRITICAL syntax error, unexpected token "if", expecting "," or ";" v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 4
+
+2022-11-04T03:58:15+00:00 CRITICAL syntax error, unexpected end of file v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 21
+
+2022-11-04T04:01:41+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:58
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 58
+
+2022-11-04T04:01:42+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:58
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 58
+
+2022-11-04T04:03:55+00:00 CRITICAL syntax error, unexpected token "endforeach", expecting "elseif" or "else" or "endif" v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 5
+
+2022-11-04T04:40:09+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:62
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 62
+
+2022-11-04T04:41:01+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:62
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 62
+
+2022-11-04T04:41:03+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:62
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 62
+
+2022-11-04T04:41:15+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:62
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 62
+
+2022-11-04T04:41:27+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:62
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 62
+
+2022-11-04T04:41:56+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:55
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 55
+
+2022-11-04T04:41:58+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:55
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 55
+
+2022-11-04T04:42:19+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:48
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 48
+
+2022-11-04T04:42:21+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:48
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 48
+
+2022-11-04T04:42:22+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:48
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 48
+
+2022-11-04T04:42:32+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:61
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 61
+
+2022-11-04T04:42:33+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:61
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 61
+
+2022-11-04T04:42:34+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:61
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 61
+
+2022-11-04T04:42:37+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:58
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 58
+
+2022-11-04T04:42:39+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:58
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 58
+
+2022-11-04T04:43:02+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:57
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 57
+
+2022-11-04T04:43:07+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:53
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 53
+
+2022-11-04T04:43:11+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:49
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 49
+
+2022-11-04T04:43:13+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:49
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 49
+
+2022-11-04T04:43:13+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:49
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 49
+
+2022-11-04T04:43:13+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:49
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 49
+
+2022-11-04T04:43:27+00:00 CRITICAL Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php:48
+Stack trace:
+#0 E:\projekty\portfolio\05eshop\wp-includes\template-loader.php(106): include()
+#1 E:\projekty\portfolio\05eshop\wp-blog-header.php(19): require_once('E:\\projekty\\por...')
+#2 E:\projekty\portfolio\05eshop\index.php(17): require('E:\\projekty\\por...')
+#3 {main}
+  thrown v E:\projekty\portfolio\05eshop\wp-content\themes\cocacola\page-obchod.php na riadku 48
+
